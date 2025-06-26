@@ -1,58 +1,63 @@
-# Full-Stack-Web-development-Mern
+MERN Stack Integration Assignment
+This assignment focuses on building a full-stack MERN (MongoDB, Express.js, React.js, Node.js) application that demonstrates seamless integration between front-end and back-end components.
 
-Week 3: React.js, JSX, and Tailwind CSS – Mastering Front-End Development
-🚀 Objective
+Assignment Overview
+You will build a blog application with the following features:
 
-Build a responsive React application using JSX and Tailwind CSS that demonstrates component architecture, state management, hooks usage, and API integration.
+RESTful API with Express.js and MongoDB
+React front-end with component architecture
+Full CRUD functionality for blog posts
+User authentication and authorization
+Advanced features like image uploads and comments
+Project Structure
+mern-blog/
+├── client/                 # React front-end
+│   ├── public/             # Static files
+│   ├── src/                # React source code
+│   │   ├── components/     # Reusable components
+│   │   ├── pages/          # Page components
+│   │   ├── hooks/          # Custom React hooks
+│   │   ├── services/       # API services
+│   │   ├── context/        # React context providers
+│   │   └── App.jsx         # Main application component
+│   └── package.json        # Client dependencies
+├── server/                 # Express.js back-end
+│   ├── config/             # Configuration files
+│   ├── controllers/        # Route controllers
+│   ├── models/             # Mongoose models
+│   ├── routes/             # API routes
+│   ├── middleware/         # Custom middleware
+│   ├── utils/              # Utility functions
+│   ├── server.js           # Main server file
+│   └── package.json        # Server dependencies
+└── README.md               # Project documentation
+Getting Started
+Accept the GitHub Classroom assignment invitation
+Clone your personal repository that was created by GitHub Classroom
+Follow the setup instructions in the Week4-Assignment.md file
+Complete the tasks outlined in the assignment
+Files Included
+Week4-Assignment.md: Detailed assignment instructions
+Starter code for both client and server:
+Basic project structure
+Configuration files
+Sample models and components
+Requirements
+Node.js (v18 or higher)
+MongoDB (local installation or Atlas account)
+npm or yarn
+Git
+Submission
+Your work will be automatically submitted when you push to your GitHub Classroom repository. Make sure to:
 
-📂 Tasks
-**Task 1: Project Setup**
-Create a new React application using Vite
-Install and configure Tailwind CSS
-Set up the project structure with components, pages, and utility folders
-Configure basic routing using React Router
-**Task 2: Component Architecture**
-Create reusable UI components:
-Button component with different variants (primary, secondary, danger)
-Card component for displaying content in a boxed layout
-Navbar component for site navigation
-Footer component with links and copyright information
-Implement a layout component that includes the Navbar and Footer
-Use props to make components customizable and reusable
-**Task 3: State Management and Hooks**
-Implement a TaskManager component that allows users to:
-Add new tasks
-Mark tasks as completed
-Delete tasks
-Filter tasks (All, Active, Completed)
-Use the following hooks:
-useState for managing component state
-useEffect for side effects (e.g., loading saved tasks)
-useContext for theme management (light/dark mode)
-Create a custom hook (e.g., useLocalStorage) for persisting tasks
-**Task 4: API Integration**
-Fetch data from a public API (e.g., JSONPlaceholder)
-Display the fetched data in a list or grid layout
-Implement loading and error states
-Add pagination or infinite scrolling
-Create a search feature to filter the API results
-**Task 5: Styling with Tailwind CSS**
-Create a responsive design that works on mobile, tablet, and desktop
-Implement a theme switcher (light/dark mode) using Tailwind's dark mode
-Use Tailwind's utility classes for layout, spacing, typography, and colors
-Create custom animations or transitions for interactive elements
-🧪 Expected Outcome
-A fully functional React application with multiple components
-Proper state management using React hooks
-API integration with loading and error handling
-Responsive design implemented with Tailwind CSS
-Clean, well-organized code following React best practices
-🛠️ Setup
-Make sure you have Node.js installed (v18 or higher recommended)
-Use the provided starter files in this repository
-Install the required dependencies:
-npm install
-
-
-Start the development server:
-npm run dev
+Complete both the client and server portions of the application
+Implement all required API endpoints
+Create the necessary React components and hooks
+Document your API and setup process in the README.md
+Include screenshots of your working application
+Resources
+- [MongoDB Documentation](https://docs.mongodb.com/)
+- [Express.js Documentation](https://expressjs.com/)
+- [React Documentation](https://react.dev/)
+- [Node.js Documentation](https://nodejs.org/en/docs/)
+- [Mongoose Documentation](https://mongoosejs.com/docs/) 
