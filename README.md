@@ -9,6 +9,7 @@ React front-end with component architecture
 Full CRUD functionality for blog posts
 User authentication and authorization
 Advanced features like image uploads and comments
+
 Project Structure
 mern-blog/
 ├── client/                 # React front-end
@@ -31,6 +32,7 @@ mern-blog/
 │   ├── server.js           # Main server file
 │   └── package.json        # Server dependencies
 └── README.md               # Project documentation
+
 Getting Started
 Accept the GitHub Classroom assignment invitation
 Clone your personal repository that was created by GitHub Classroom
